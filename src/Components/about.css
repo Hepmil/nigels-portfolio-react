@@ -1,0 +1,86 @@
+.a{
+    height: 100vh;
+    display: flex;
+}
+
+.a-left{
+    flex: 1;
+    flex-direction: column;
+    padding: 30px;  
+}
+
+.a-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    margin: 300px 50px 75px 100px; 
+}
+
+.a-education{
+    text-align: center;
+}
+
+.a-schools{
+    margin: 5%;
+}
+
+.a-schools-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5%;
+    width: 90%
+}
+
+.a-languages{
+    text-align: center;
+    padding: 5%
+}
+
+
+.a-lang{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+
+.a-icon{
+    width: 70px;
+    height: 80px;
+}
+
+.a-icon-node{
+    width: 110px;
+    height: 80px;
+}
+
+.a-icon-angular{
+    width: 80px;
+    height: 80px;
+}
+
+.a-icon-python{
+    width: 80px;
+    height: 80px;
+}
+
+.a-icon-github{
+    width: 80px;
+    height: 80px;
+}
+
+.a-icon-html{
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 480px){
+    .a{
+        font-display: column;
+    }
+
+    .a-right{
+        display: none;
+    }
+}
+

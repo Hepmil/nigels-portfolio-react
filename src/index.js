@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Intro from './Components/Intro';
+import About from './Components/About'
+import Contact from './Components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Intro />
+    <About />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
